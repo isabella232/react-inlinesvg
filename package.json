@@ -1,12 +1,16 @@
 {
-  "name": "react-inlinesvg",
-  "version": "2.2.2",
+  "name": "@leeoniya/react-inlinesvg",
+  "version": "2.2.4",
   "description": "An SVG loader for React",
   "author": "Gil Barbara <gilbarbara@gmail.com>",
   "contributors": [
     {
       "name": "Matthew Dapena-Tretter",
       "email": "m@tthewwithanm.com"
+    },
+    {
+      "name": "Leon Sorokin",
+      "email": "leeoniya@gmail.com"
     }
   ],
   "keywords": [
@@ -36,7 +40,7 @@
   },
   "dependencies": {
     "exenv": "^1.2.2",
-    "react-from-dom": "^0.5.1"
+    "react-from-dom": "^0.6.0"
   },
   "devDependencies": {
     "@gilbarbara/tsconfig": "^0.1.0",
