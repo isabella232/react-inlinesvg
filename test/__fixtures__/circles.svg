@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="600px" height="400px" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-    <style>
-      @import url(main.css);
-    </style>
-    <style>
-      circle:last-child {
-        fill: green;
-      }
-    </style>
-    <script type="text/javascript">
-      <![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" preserveAspectRatio="xMidYMid" version="1.1" viewBox="0 0 600 400"><style>@import url(main.css);</style><style>circle:last-child{fill:green}</style><script type="text/javascript"><![CDATA[
         function change(evt) {
           var target = evt.target;
           var radius = target.getAttribute("r");
@@ -22,10 +11,4 @@
 
           target.setAttribute("r", radius);
         }
-      ]]>
-    </script>
-    <g>
-        <circle fill="#DDDDDD" cx="200" cy="200" r="200" onclick="change(evt)"></circle>
-        <circle fill-opacity="0.8" fill="#000000" cx="400" cy="200" r="200"></circle>
-    </g>
-</svg>
+      ]]></script><g><circle cx="200" cy="200" r="200" fill="#DDD" onclick="change(evt)"/><circle cx="400" cy="200" r="200" fill="#000" fill-opacity=".8"/></g></svg>
